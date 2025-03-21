@@ -88,7 +88,7 @@ const ProfileDetailsPage = () => {
       exit="exit"
       variants={pageVariants}
     >
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto px-4 font-serif">
         <motion.button
           onClick={handleBackClick}
           className="mb-8 flex items-center text-blue-600 hover:text-blue-800 transition-colors"
@@ -135,7 +135,7 @@ const ProfileDetailsPage = () => {
             </div>
             <div className="md:w-[full] p-8">
               <motion.h1
-                className="text-3xl font-bold text-gray-800 mb-4 text-center"
+                className="text-3xl font-bold text-gray-800 mb-4 text-center font-serif"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.5 }}
@@ -161,10 +161,10 @@ const ProfileDetailsPage = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-medium text-gray-500">
+                    <h3 className="text-sm font-medium text-gray-500 font-serif ">
                       Contact Number
                     </h3>
-                    <p className="text-lg text-gray-800">
+                    <p className="text-lg text-gray-800 font-sans">
                       {profile.client_mobile || "Not provided"}
                     </p>
                   </div>
@@ -190,10 +190,10 @@ const ProfileDetailsPage = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-sm font-medium text-gray-500">
+                    <h3 className="text-sm font-medium text-gray-500 font-serif">
                       Location
                     </h3>
-                    <p className="text-lg text-gray-800">
+                    <p className="text-lg text-gray-800 font-sans">
                       {profile.client_city || "Not provided"}
                     </p>
                   </div>

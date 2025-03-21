@@ -25,7 +25,7 @@ const ProfileCard = ({
     green: "text-green-500",
   };
 
-  const buttonClass = ` mt-4 px-4 py-2 rounded-lg w-full transition-colors ${colorClasses[buttonColor]} ${textClasses[textColor]} text-center cursor-pointer`;
+  const buttonClass = ` mt-4 px-4 py-2 font-serif rounded-lg w-full transition-colors ${colorClasses[buttonColor]} ${textClasses[textColor]} text-center cursor-pointer`;
 
   // Skeleton UI
   if (isLoading) {
@@ -48,7 +48,7 @@ const ProfileCard = ({
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
       <img src={img} alt={name} className="w-[300px] h-[300px] object-cover" />
       <div className="p-4">
-        <h2 className="text-xl font-semibold ml-4">{name}</h2>
+        <h2 className="text-xl font-semibold ml-4 font-serif">{name}</h2>
         <div className={buttonClass} onClick={onClick}>
           View Details
         </div>

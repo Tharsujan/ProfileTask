@@ -64,7 +64,9 @@ const ProfileListingPage = () => {
     <div className="bg-gray-50 flex justify-center items-center min-w-screen">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="mb-12 text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-3">Profiles</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-3 font-sans">
+            Profiles
+          </h1>
           {/* <p className="text-gray-600 max-w-2xl mx-auto">
             Browse through our collection of professional profiles and connect
             with talented individuals.
