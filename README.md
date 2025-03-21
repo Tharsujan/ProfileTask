@@ -17,4 +17,4 @@ Redux for state management
 Vite for build tooling and development server
 Tailwind CSS for styling
 
-This project demonstrates effective state management with Redux while maintaining a clean, responsive user interface built with Tailwind CSS's utility-f
+This project demonstrates effective state management with Redux while maintaining a clean, responsive user interface built with Tailwind CSS's utility-first approach.
